@@ -12,6 +12,8 @@
 		E1B52B241E37D5BF0057A030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B52B221E37D5BF0057A030 /* Main.storyboard */; };
 		E1B52B261E37D5BF0057A030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B52B251E37D5BF0057A030 /* Assets.xcassets */; };
 		E1B52B291E37D5BF0057A030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B52B271E37D5BF0057A030 /* LaunchScreen.storyboard */; };
+		E1EBA1D01E39565100770200 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1EBA1CF1E39565100770200 /* Minecraft.ttf */; };
+		E1EBA1D21E39579C00770200 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1EBA1D11E39579C00770200 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E1B52B251E37D5BF0057A030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1B52B281E37D5BF0057A030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1B52B2A1E37D5BF0057A030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EBA1CF1E39565100770200 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		E1EBA1D11E39579C00770200 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		E1B52B1D1E37D5BF0057A030 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				E1EBA1D11E39579C00770200 /* btn.wav */,
+				E1EBA1CF1E39565100770200 /* Minecraft.ttf */,
 				E1B52B1E1E37D5BF0057A030 /* AppDelegate.swift */,
 				E1B52B201E37D5BF0057A030 /* ViewController.swift */,
 				E1B52B221E37D5BF0057A030 /* Main.storyboard */,
@@ -124,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EBA1D21E39579C00770200 /* btn.wav in Resources */,
 				E1B52B291E37D5BF0057A030 /* LaunchScreen.storyboard in Resources */,
 				E1B52B261E37D5BF0057A030 /* Assets.xcassets in Resources */,
+				E1EBA1D01E39565100770200 /* Minecraft.ttf in Resources */,
 				E1B52B241E37D5BF0057A030 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +308,7 @@
 				E1B52B2F1E37D5BF0057A030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
